@@ -6,6 +6,8 @@
 
 - Using Redis for storing leaderboard
 
+- Ratelimiting with Redis
+
 - K6 for load testing
 
 ### K6 - LOAD TESTING
