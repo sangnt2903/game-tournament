@@ -16,4 +16,4 @@
 
 ### LICENSE
 
-MIT License
+MIT License V1.0
