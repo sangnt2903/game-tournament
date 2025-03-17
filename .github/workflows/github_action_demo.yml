@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 🎉 The job was automatically triggered by a ${{ github.event_name }} event
+
+      - run: 🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}
+
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+
+      - run: 🍏 This job's status is ${{ job.status }}
