@@ -5,7 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: 🎉 The job was automatically triggered by a ${{ github.event_name }} event
+      - name: Information
+        run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event"
 
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}"
 
