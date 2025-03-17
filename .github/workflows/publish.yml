@@ -16,7 +16,7 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v1.1.0
         with:
-          registry: docker.pkg.github.com
+          registry: https://ghcr.io
           username: sangnt2903
           password: ${{ secrets.GHCR_PAT }}
           dockerfile: ./Dockerfile
